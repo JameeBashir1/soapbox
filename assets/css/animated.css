@@ -5,6 +5,71 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2014 Daniel Eden
 */
+/* Set default styles for the donate section */
+/* Set default styles for the donate section */
+/* Set default styles for the donate section */
+/* Set default styles for the donate section */
+.donate-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #49d43f;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+/* Style the text */
+.donate-text {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  color: white;
+  padding-right: 20px;
+}
+
+/* Style the button */
+.donate-btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.donate-btn:hover {
+  background-color: #e6e6e6;
+  color: #333;
+  transform: scale(1.1);
+}
+
+/* Use media queries to adjust the styles for smaller screens */
+@media (max-width: 768px) {
+  .donate-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .donate-text {
+    padding-right: 0;
+    text-align: center;
+    color: white;
+  }
+
+  .donate-btn {
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 150px;
+  }
+}
+
 
 .animated {
   -webkit-animation-duration: 1s;
