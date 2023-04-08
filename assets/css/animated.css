@@ -9,6 +9,58 @@ Copyright (c) 2014 Daniel Eden
 /* Set default styles for the donate section */
 /* Set default styles for the donate section */
 /* Set default styles for the donate section */
+
+/* Recruitement btn  start*/
+.recruitment_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222222;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 40px;
+  width: 70%;
+  max-width: 400px;
+}
+
+.recruitment_button p {
+  display: inline;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.recruitment_button a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: white;
+  color: black;
+  border-radius: 16px;
+  margin-left: 10px;
+  width: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .recruitment_button {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .recruitment_button p {
+    margin-bottom: 10px;
+  }
+  
+  .recruitment_button a {
+    margin-left: 0;
+    width: calc(100% - 46px); /* Decreased by 30% of original width */
+  }
+}
+
+
+/* End */
 .donate-section {
   display: flex;
   justify-content: space-between;
@@ -54,7 +106,6 @@ Copyright (c) 2014 Daniel Eden
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    border-radius: 10px;
   }
 
   .donate-text {
@@ -65,8 +116,7 @@ Copyright (c) 2014 Daniel Eden
 
   .donate-btn {
     margin-top: 10px;
-    border-radius: 20px;
-    width: 150px;
+    width: calc(100% - 46px);
   }
 }
 
