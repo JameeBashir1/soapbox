@@ -60,6 +60,56 @@ Copyright (c) 2014 Daniel Eden
 }
 
 
+/* Register Section */
+.Register {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #03a4ed;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 40px;
+  width: 90%;
+  max-width: 490px;
+  margin-top:16px;
+}
+
+.Register p {
+  display: inline;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.Register a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: white;
+  color: black;
+  border-radius: 16px;
+  margin-left: 10px;
+  width: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .Register {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .Register p {
+    margin-bottom: 10px;
+  }
+  
+  .Register a {
+    margin-left: 0;
+    width: calc(100% - 46px); /* Decreased by 30% of original width */
+  }
+}
+
 /* End */
 .donate-section {
   display: flex;
