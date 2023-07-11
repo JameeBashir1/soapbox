@@ -5,7 +5,7 @@ setInterval(function(){
     if(counter > 3){
         counter = 1;
     }
-}, 3000);
+}, 5000);
 
 
 
