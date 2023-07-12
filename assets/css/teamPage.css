@@ -295,7 +295,7 @@ img {
     text-align: center;
     margin-bottom: 30px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 8px 2px grey;
 }
 
 .team-2 .team-img {
@@ -388,11 +388,14 @@ img {
     font-size: 25px;
     font-weight: 400;
     letter-spacing: 2px;
+    margin-top: -10px;
 }
 
 .team-2 .team-content h3 {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 350;
+    margin-bottom: -6px;
+    margin-top: -12px;
 }
 
 .team-2 .team-content h4 {
